@@ -202,6 +202,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_extra_data(df):
+    """ pagenation of the data  """
     len_of_df = len(df)
     index = 0
     page_size= 5 
@@ -228,8 +229,10 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         display_extra_data(df) 
+        
+        options = ["yes","no"]
+        restart = ValidateUserInput("\nWould you like to restart? Enter yes or no.\n",options)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
