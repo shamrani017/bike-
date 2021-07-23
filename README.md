@@ -1,3 +1,3 @@
 welcome to bike app project
-I set up the repository and push the changed in git hub
-I add stage and commit the change
+
+this app will show some helpful data  about bicycles in some of the major cities like, most popular stations, peak day, peak hour of bike use etc 
