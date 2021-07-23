@@ -202,6 +202,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_extra_data(df):
+    """ pagenation of the data  """
     len_of_df = len(df)
     index = 0
     page_size= 5 
